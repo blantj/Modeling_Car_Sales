@@ -34,4 +34,4 @@ Consumer Reports: https://www.consumerreports.org/
 Auto News: https://www.autonews.com/
 
 # Reproduction Instructions
-Please contact Jesse Blant for reproduction permission.
+Please contact Jesse Blant (https://www.linkedin.com/in/jesse-blant-372a523a/) for reproduction permission.
