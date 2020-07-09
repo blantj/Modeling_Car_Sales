@@ -14,3 +14,16 @@ My principal objective in EDA was to determine the descriptive statistics of the
 
 ## Model Data
 I used RMSE as my principle evaluation metric in order to measure the difference between my model predictions and the actual values, while disproportionately punishing large prediction misses.  I used an 80/20 Train Test Split to validate my models.  My baseline model was a Dummy Regressor using a mean strategy, which produced a Testing RMSE of 5,095.  I next ran a GridsearchCV Decision Tree Regressor, which significantly improved the Testing RMSE to 3,100.  I improved upon my Decision Tree model by running a more computationally complex Random Forest Model, which improved my Testing RMSE to 2,744.  Finally, I ran an SVM Regressor model using GridsearchCV, which produced a Testing RMSE of 2,897.  At this point, my 3 models had produced similar RMSE scores, which led me to believe that I had reached the point of diminishing returns on running additional models without increasingly computation complexity considerably, which I did not have time for.
+
+## Interperate Results
+The Decision Tree Regressor was my best performing model with a Testing RMSE of 2,897, a testing MAE of 1,534 and an R-Squared of .83, which significantly outperformed my Baseline Model's performance of 5,095, 3,547 and .41 respectively.  Because my model significantly outperformed the Baseline Model and my RMSE performed well relative to the Monthly Sales Mean(6,991) and Standard Deviation(6,699), I believe I was succesful in my modeling objective of predicting an auto model's sales based on it's features.  The three models that I ran performed relatively similarly, which led me to believe that my Decision Tree Regressor results reached the point of diminishing marginal returns on model performance without significantly increasing model complexity and computational resources required.  Although it was not part of my modeling objective, I pulled the feature importances from my Decision Tree Model.  The two most important features were both comfort based with space and performance also being important predictors of sales with 7 and 5 features respectively in the top 20 most important.  Interestingly, Reliability was not included in the top 20 most important features.
+
+## Next steps
+I would like to train a neural network, which I believe has a strong potential to outperform my existing models.  I would also like to engage in feature engineering in order to reduce the number of features in my model and make the feature importance results more interpretable.  Finally, I would like to continue updating my model with new model years and sales data as they become available.
+
+# Github Files
+["Scrape.ipynb"]("https://github.com/blantj/Modeling_Car_Sales/blob/master/Scrape.ipynb") :  Consumer Reports Scrape
+
+["Final_Modeling.ipynb "]("https://github.com/blantj/Modeling_Car_Sales/blob/master/Final_Modeling.ipynb") :  OSEMN Data Science Process
+
+["Modeling Car Sales_v2.pptx"]("https://github.com/blantj/Modeling_Car_Sales/blob/master/Modeling%20Car%20Sales_v2.pptx") :  Project Presentation
