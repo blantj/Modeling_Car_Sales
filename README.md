@@ -24,6 +24,11 @@ I would like to train a neural network, which I believe has a strong potential t
 # Github Files
 ["Scrape.ipynb"]("https://github.com/blantj/Modeling_Car_Sales/blob/master/Scrape.ipynb") :  Consumer Reports Scrape
 
-["Final_Modeling.ipynb "]("https://github.com/blantj/Modeling_Car_Sales/blob/master/Final_Modeling.ipynb") :  OSEMN Data Science Process
+["Final_Modeling.ipynb"]("https://github.com/blantj/Modeling_Car_Sales/blob/master/Final_Modeling.ipynb") :  OSEMN Data Science Process
 
 ["Modeling Car Sales_v2.pptx"]("https://github.com/blantj/Modeling_Car_Sales/blob/master/Modeling%20Car%20Sales_v2.pptx") :  Project Presentation
+
+# Sources
+Consumer Reports: https://www.consumerreports.org/
+
+Auto News: https://www.autonews.com/
